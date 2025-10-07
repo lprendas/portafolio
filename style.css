@@ -85,6 +85,10 @@ header .sub {
   height: auto;
 }
 
+@media (max-width: 360px) {
+  .galeria { grid-template-columns: 1fr; }
+  .galeria img.horizontal { grid-column: auto; }
+}
 /* Contacto */
 .contacto {
   padding: 30px;
@@ -113,8 +117,8 @@ footer {
 /* ===== Teléfono (≤600px) ===== */
 @media (max-width: 600px) {
   header {
-    text-align: left;         /* alinear a la izquierda en móvil */
-    padding: 16px 16px 12px;
+    text-align: center;         /* alinear a la izquierda en móvil */
+    padding: 24px 16px 12px;
   }
 
   header h1 {
@@ -129,7 +133,7 @@ footer {
   }
 
   .medidas {
-    justify-content: flex-start; /* medidas a la izquierda */
+    justify-content: center; /* medidas a la izquierda */
     gap: 12px;
     font-size: 12px;
   }
