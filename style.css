@@ -115,7 +115,7 @@ footer {
 }
 
 /* ===== Teléfono (≤600px) ===== */
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   header {
     text-align: center;         /* alinear a la izquierda en móvil */
     padding: 24px 16px 12px;
@@ -138,9 +138,6 @@ footer {
     font-size: 12px;
   }
 
-/*  .galeria {
-    grid-template-columns: 1fr;
-   }*/
   .galeria img.horizontal {
     grid-column: auto; /* ya no hace falta span en 1 columna */
   }
