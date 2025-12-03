@@ -89,21 +89,32 @@ header .sub {
   .galeria { grid-template-columns: 1fr; }
   .galeria img.horizontal { grid-column: auto; }
 }
-/* Contacto */
+/* ===== Contacto (fondo blanco, centrado, Marcellus) ===== */
 .contacto {
-  padding: 30px;
+  padding: 40px 20px;
   background: #ffffff;
   text-align: center;
+  font-family: 'Marcellus', serif;
 }
 
-.contacto h2 { margin-bottom: 12px; }
+.contacto p {
+  margin: 4px 0;
+  font-size: clamp(15px, 2.2vw, 18px);
+  letter-spacing: 0.3px;
+  color: #000000;
+}
 
 .contacto a {
-  color: #ff4081;
+  color: #000000;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 400;
 }
-.contacto a:hover { text-decoration: underline; }
+
+.contacto a:hover {
+  text-decoration: underline;
+}
+
+
 
 /* Footer */
 footer {
